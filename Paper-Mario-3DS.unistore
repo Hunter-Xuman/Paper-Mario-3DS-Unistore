@@ -1,0 +1,54 @@
+{
+    "storeInfo": {
+        "title": "Paper Mario 3DS Unistore",
+        "author": "HunterXuman",
+        "description": "An online repository of community made mods for Paper Mario Sticker Star",
+        "url": "https://github.com/Hunter-Xuman/Paper-Mario-3DS-Unistore/releases/Paper-Mario-3DS.unistore",
+        "file": "Paper-Mario-3DS.unistore",
+        "sheetURL": "https://github.com/Hunter-Xuman/Paper-Mario-3DS-Unistore/releases/Paper-Mario-3DS.t3x",
+        "sheet": "Paper-Mario-3DS.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 1,
+        "version": 1
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "PM4-Test",
+                "author": "HunterXuman",
+                "description": "Test",
+                "category": ["demo"],
+                "console": ["3DS"],
+                "description": "This is a test",
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "Just now i guess",
+                "license": "free",
+                "version": "v0.1"
+            },
+            "PM4-Test.zip": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Hunter-Xuman/PM4-Test/releases/download/Test/PM4-Test.zip",
+                    "output": "sdmc:/PM3DS/PM4-Test.zip"
+                }
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/PM4-Test.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/PM4-Test.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        }
+    ]
+}
