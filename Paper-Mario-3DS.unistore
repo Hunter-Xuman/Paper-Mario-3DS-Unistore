@@ -15,15 +15,50 @@
     "storeContent": [
         {
             "info": {
+                "title": "Cleanup",
+                "author": "HunterXuman",
+                "category": ["Utility"],
+                "console": ["3DS"],
+                "description": "Deletes files in mod folder to prepare for new mods/modpacks.",
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "Dec 17th 2025",
+                "license": "CC BY-NC-ND 4.0",
+                "version": "v0.1.1"
+            },
+            "Cleanup (USA)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000000A5E00/romfs",
+                    "required": false
+                }
+            ],
+            "Cleanup (EUR)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000000A5F00/romfs",
+                    "required": false
+                }
+            ],
+            "Cleanup (JPN)": [
+                {
+                    "type": "rmdir",
+                    "directory": "sdmc:/luma/titles/00040000000A5D00/romfs",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "info": {
                 "title": "PM4 Challenge Mode",
                 "author": "HunterXuman",
                 "category": ["Modpack"],
                 "console": ["3DS"],
                 "description": "PM4 Challenge Mode is a mod of Paper Mario Sticker Star that adds some slight changes to the game to create a more challenging experience.",
-                "icon_index": 0,
+                "icon_index": 1,
                 "sheet_index": 0,
                 "last_updated": "Dec 17th 2025",
-                "license": "CC BY-NC-ND 4.0",
+                "license": "CC0 1.0 Universal",
                 "version": "v0.1.1"
             },
             "PM4-Challenge-Mode.zip (USA)": [
@@ -100,7 +135,7 @@
                 "category": ["Modpack"],
                 "console": ["3DS"],
                 "description": "DISCLAIMER: ALOT OF CHANGES ARE SUBTLE, THIS ISNT A BETA RECREATION. Restores cut objects hidden within various models in the game.",
-                "icon_index": 1,
+                "icon_index": 2,
                 "sheet_index": 0,
                 "last_updated": "Apr 19th 2025",
                 "license": "CC BY-NC-ND 4.0",
@@ -173,14 +208,14 @@
                }
             ]
         },
-                {
+        {
             "info": {
                 "title": "Skippable Dialogue",
                 "author": "Inbst, Redistributed by Bamboi",
                 "category": ["Mod"],
                 "console": ["3DS"],
                 "description": "This mod lets you skip (almost) every dialogue in sticker star.",
-                "icon_index": 2,
+                "icon_index": 3,
                 "sheet_index": 0,
                 "last_updated": "Aug 11th 2025",
                 "license": "CC BY-NC-ND 4.0",
@@ -245,6 +280,548 @@
                {
                   "type":"deleteFile",
                   "file":"sdmc:/PM3DS/skippable_dialogue_mod_for_pmss.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "Mario Animation Revamp",
+                "author": "Br123TT",
+                "category": ["Mod"],
+                "console": ["3DS"],
+                "description": "A Mod for Paper Mario Sticker Star that changes Mario's animations.\nThis mod download allows for a few extra things too.\nChoose between smooth or choppy animations\nNew back angle animations\nTTYD Battle animations.",
+                "icon_index": 4,
+                "sheet_index": 0,
+                "last_updated": "Feb 25th 2025",
+                "license": "CC BY-NC-ND 4.0",
+                "version": "2"
+            },
+            "Mario Animations Revamp (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"1 Mario Animations Revamp/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"1 Mario Animations Revamp/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"1 Mario Animations Revamp/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (Smooth) (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"2 Mario Animations Revamp (Smooth)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (Smooth) (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"2 Mario Animations Revamp (Smooth)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (Smooth) (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"2 Mario Animations Revamp (Smooth)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (Extra back animations) (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"3 Mario Animations Revamp (Extra back animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (Extra back animations) (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"3 Mario Animations Revamp (Extra back animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (Extra back animations) (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"3 Mario Animations Revamp (Extra back animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (TTYD Battle animations) (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"4 Mario Animations Revamp (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (TTYD Battle animations) (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"4 Mario Animations Revamp (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mario Animations Revamp (TTYD Battle animations) (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"4 Mario Animations Revamp (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Smooth) (Extra back animations) (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"5 Mario Animations Revamp (Smooth) (Extra back animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Smooth) (Extra back animations) (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"5 Mario Animations Revamp (Smooth) (Extra back animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Smooth) (Extra back animations) (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"5 Mario Animations Revamp (Smooth) (Extra back animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Smooth) (TTYD Battle animations) (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"6 Mario Animations Revamp (Smooth) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Smooth) (TTYD Battle animations) (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"6 Mario Animations Revamp (Smooth) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Smooth) (TTYD Battle animations) (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"6 Mario Animations Revamp (Smooth) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Extra back animations) (TTYD Battle animations) (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"7 Mario Animations Revamp (Extra back animations) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Extra back animations) (TTYD Battle animations) (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"7 Mario Animations Revamp (Extra back animations) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Revamp (Extra back animations) (TTYD Battle animations) (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"7 Mario Animations Revamp (Extra back animations) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "(Extra back animations) (Smooth) (TTYD Battle animations) (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"8 Mario Animations Revamp (Extra back animations) (Smooth) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "(Extra back animations) (Smooth) (TTYD Battle animations) (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"8 Mario Animations Revamp (Extra back animations) (Smooth) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "(Extra back animations) (Smooth) (TTYD Battle animations) (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1384804",
+                    "output": "sdmc:/PM3DS/mario_revamp_ver2.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip",
+                  "input":"8 Mario Animations Revamp (Extra back animations) (Smooth) (TTYD Battle animations)/00040000000A5E00/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
                },
                {
                   "type":"promptMessage",
