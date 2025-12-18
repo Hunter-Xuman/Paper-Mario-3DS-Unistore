@@ -90,7 +90,7 @@
                   "type":"promptMessage",
                   "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
-               },
+               }
             ]
         },
         {
