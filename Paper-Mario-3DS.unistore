@@ -22,9 +22,9 @@
                 "description": "PM4 Challenge Mode is a mod of Paper Mario Sticker Star that adds some slight changes to the game to create a more challenging experience.",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "Dec 16th 2025",
+                "last_updated": "Dec 17th 2025",
                 "license": "free",
-                "version": "v0.1"
+                "version": "v0.1.1"
             },
             "PM4-Test.zip": [
                 {
