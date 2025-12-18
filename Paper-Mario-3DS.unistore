@@ -101,7 +101,7 @@
             "Mod Removal (USA)": [
                {
                   "type":"deleteFile",
-                  "file":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+                  "file":"sdmc:/luma/titles/00040000000A5E00/romfs"
                },
                {
                   "type":"promptMessage",
