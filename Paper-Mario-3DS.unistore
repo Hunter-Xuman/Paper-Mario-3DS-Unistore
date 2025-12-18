@@ -189,7 +189,7 @@
             "skippable_dialogue_mod_for_pmss.rar (USA)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://gamebanana.com/dl/1366709",
+                    "file": "https://gamebanana.com/dl/1495565",
                     "output": "sdmc:/PM3DS/skippable_dialogue_mod_for_pmss.rar"
                 },
                 {
@@ -211,7 +211,7 @@
             "skippable_dialogue_mod_for_pmss.rar (EUR)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://gamebanana.com/dl/1366709",
+                    "file": "https://gamebanana.com/dl/1495565",
                     "output": "sdmc:/PM3DS/skippable_dialogue_mod_for_pmss.rar"
                 },
                 {
@@ -233,7 +233,7 @@
             "skippable_dialogue_mod_for_pmss.rar (JPN)": [
                 {
                     "type": "downloadFile",
-                    "file": "https://gamebanana.com/dl/1366709",
+                    "file": "https://gamebanana.com/dl/1495565",
                     "output": "sdmc:/PM3DS/skippable_dialogue_mod_for_pmss.rar"
                 },
                 {
