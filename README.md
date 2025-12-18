@@ -13,3 +13,4 @@ You will need to install Universal-Updater. https://github.com/Universal-Team/Un
 - [PM4 Challenge Mode](https://github.com/Hunter-Xuman/PM4-Challenge-Mode) by HunterXuman
 - [Skippable Dialogue](https://gamebanana.com/mods/606337) by Inbst
 - [The Cut Content Unhidden Mod](https://gamebanana.com/mods/570191) by TheIronicGaymerQween2
+- [Mario Animation Revamp](https://gamebanana.com/mods/564315) by BR123TT
