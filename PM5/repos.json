@@ -1,0 +1,24 @@
+{
+    "packages": [
+        {
+            "updated": "06/08/2025",
+            "appCreated": "06/08/2025",
+            "app_dls": 1986,
+            "screens": 3,
+            "md5": "50c741f371b662da68176b37431ff527",
+            "category": "Legacy",
+            "binary": "/wiiu/sdcafiine/000500001F600A00/",
+            "name": "ooooo_over_huey_mod",
+            "license": "MIT",
+            "title": "Ooooo over Huey",
+            "url": "https://gamebanana.com/dl/1492093",
+            "description": "This mod replaces Huey with Ooooo from the Pixar film Elio :)",
+            "author": "Piggreen346",
+            "changelog": "n/a",
+            "extracted": 7547712,
+            "version": "1.00",
+            "filesize": 6551459,
+            "details": "This mod replaces Huey with Ooooo from the Pixar film Elio :)"
+        }
+    ]
+}
