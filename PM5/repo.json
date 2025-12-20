@@ -11,7 +11,7 @@
             "name": "enemy.shop",
             "license": "MIT",
             "title": "Enemy Shop",
-            "url": "https://github.com/Hunter-Xuman/CS-App-Test/releases/download/test/Enemy.Shop.zip",
+            "url": "https://github.com/Hunter-Xuman/CS-App-Test/releases/download/test",
             "description": "This mod replaces Huey with Ooooo from the Pixar film Elio :)",
             "author": "Piggreen346",
             "changelog": "n/a",
@@ -22,4 +22,5 @@
         }
     ]
 }
+
 
