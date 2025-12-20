@@ -8,10 +8,10 @@
             "md5": "50c741f371b662da68176b37431ff527",
             "category": "Legacy",
             "binary": "/wiiu/sdcafiine/000500001F600A00/",
-            "name": "ooooo_over_huey_mod",
+            "name": "enemy.shop",
             "license": "MIT",
-            "title": "Ooooo over Huey",
-            "url": "https://gamebanana.com/dl/1492093",
+            "title": "Enemy Shop",
+            "url": "https://github.com/Hunter-Xuman/CS-App-Test/releases/download/test/Enemy.Shop.zip",
             "description": "This mod replaces Huey with Ooooo from the Pixar film Elio :)",
             "author": "Piggreen346",
             "changelog": "n/a",
@@ -22,3 +22,4 @@
         }
     ]
 }
+
