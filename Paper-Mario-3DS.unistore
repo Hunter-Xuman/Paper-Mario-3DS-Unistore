@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Hunter-Xuman/Paper-Mario-3DS-Unistore/raw/main/Paper-Mario-3DS.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 5,
+        "revision": 6,
         "version": 3
     },
     "storeContent": [
@@ -51,15 +51,15 @@
         {
             "info": {
                 "title": "PM4 Challenge Mode",
-                "author": "HunterXuman",
+                "author": "HunterXuman, Shigu",
                 "category": ["Modpack"],
                 "console": ["3DS"],
                 "description": "PM4 Challenge Mode is a mod of Paper Mario Sticker Star that adds some slight changes to the game to create a more challenging experience.",
                 "icon_index": 1,
                 "sheet_index": 0,
-                "last_updated": "Dec 17th 2025",
+                "last_updated": "Dec 20th 2025",
                 "license": "CC0 1.0 Universal",
-                "version": "v0.1.1"
+                "version": "v0.1.2"
             },
             "PM4-Challenge-Mode.zip (USA)": [
                 {
@@ -132,7 +132,7 @@
             "info": {
                 "title": "The Cut Content Unhidden Mod",
                 "author": "TheIronicGaymerQween2",
-                "category": ["Modpack"],
+                "category": ["Graphics"],
                 "console": ["3DS"],
                 "description": "DISCLAIMER: ALOT OF CHANGES ARE SUBTLE, THIS ISNT A BETA RECREATION. Restores cut objects hidden within various models in the game.",
                 "icon_index": 2,
@@ -212,7 +212,7 @@
             "info": {
                 "title": "Skippable Dialogue",
                 "author": "Inbst, Redistributed by Bamboi",
-                "category": ["Mod"],
+                "category": ["Script"],
                 "console": ["3DS"],
                 "description": "This mod lets you skip (almost) every dialogue in sticker star.",
                 "icon_index": 3,
@@ -292,7 +292,7 @@
             "info": {
                 "title": "Mario Animation Revamp",
                 "author": "Br123TT",
-                "category": ["Mod"],
+                "category": ["Graphics"],
                 "console": ["3DS"],
                 "description": "A Mod for Paper Mario Sticker Star that changes Mario's animations.\nThis mod download allows for a few extra things too.\nChoose between smooth or choppy animations\nNew back angle animations\nTTYD Battle animations.",
                 "icon_index": 4,
@@ -822,6 +822,508 @@
                {
                   "type":"deleteFile",
                   "file":"sdmc:/PM3DS/mario_revamp_ver2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "Paper Mario But Enemies Have Unreasonable Stats",
+                "author": "Lumdy",
+                "category": ["Data"],
+                "console": ["3DS"],
+                "description": "This mod literally just multiplies the stats of every enemy/boss in the game by 5, giving them both 5 times damage and 5 times health.",
+                "icon_index": 5,
+                "sheet_index": 0,
+                "last_updated": "June 8th 2025",
+                "license": "CC0 1.0 Universal",
+                "version": "v1"
+            },
+            "obnoxiously_high_stats.zip (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1454456",
+                    "output": "sdmc:/PM3DS/obnoxiously_high_stats.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/obnoxiously_high_stats.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/obnoxiously_high_stats.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "obnoxiously_high_stats.zip (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1454456",
+                    "output": "sdmc:/PM3DS/obnoxiously_high_stats.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/obnoxiously_high_stats.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/obnoxiously_high_stats.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "obnoxiously_high_stats.zip (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1454456",
+                    "output": "sdmc:/PM3DS/obnoxiously_high_stats.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/obnoxiously_high_stats.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/obnoxiously_high_stats.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "Paper Luigi Sticker Star",
+                "author": "dtrune",
+                "category": ["Graphics"],
+                "console": ["3DS"],
+                "description": "A Mod that turns Mario into Luigi!",
+                "icon_index": 6,
+                "sheet_index": 0,
+                "last_updated": "Mar 14th 2025",
+                "license": "CC0 1.0 Universal",
+                "version": "v2"
+            },
+            "paperluigiupdated_2e6e6.zip (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1399781",
+                    "output": "sdmc:/PM3DS/paperluigiupdated_2e6e6.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/paperluigiupdated_2e6e6.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/paperluigiupdated_2e6e6.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "paperluigiupdated_2e6e6.zip (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1399781",
+                    "output": "sdmc:/PM3DS/paperluigiupdated_2e6e6.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/paperluigiupdated_2e6e6.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/paperluigiupdated_2e6e6.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "paperluigiupdated_2e6e6.zip (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1399781",
+                    "output": "sdmc:/PM3DS/paperluigiupdated_2e6e6.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/paperluigiupdated_2e6e6.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/paperluigiupdated_2e6e6.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "Origami King Mario face",
+                "author": "Br123TT",
+                "category": ["Graphics"],
+                "console": ["3DS"],
+                "description": "A minor mod that changes Mario's front\nangled face to look like the one from\nPaper Mario: The Origami King & Paper Mario: The Thousand Year Door (Nintendo Switch version).\nAlso includes a sightly different Mario back head angle too.",
+                "icon_index": 7,
+                "sheet_index": 0,
+                "last_updated": "Mar 10th 2025",
+                "license": "CC0 1.0 Universal",
+                "version": "v1"
+            },
+            "pmtok_mario_face_d5596.zip (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1397711",
+                    "output": "sdmc:/PM3DS/pmtok_mario_face_d5596.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/pmtok_mario_face_d5596.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/pmtok_mario_face_d5596.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "pmtok_mario_face_d5596.zip (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1397711",
+                    "output": "sdmc:/PM3DS/pmtok_mario_face_d5596.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/pmtok_mario_face_d5596.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/pmtok_mario_face_d5596.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "pmtok_mario_face_d5596.zip (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1397711",
+                    "output": "sdmc:/PM3DS/pmtok_mario_face_d5596.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/pmtok_mario_face_d5596.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/pmtok_mario_face_d5596.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "The Green Screen Battle map",
+                "author": "Piggreen346",
+                "category": ["Graphics"],
+                "console": ["3DS"],
+                "description": "This mod replaces the battle map of world1-2",
+                "icon_index": 8,
+                "sheet_index": 0,
+                "last_updated": "Aug 16th 2024",
+                "license": "CC0 1.0 Universal",
+                "version": "v1"
+            },
+            "the_green_screen_battlemap.zip (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1259616",
+                    "output": "sdmc:/PM3DS/the_green_screen_battlemap.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/the_green_screen_battlemap.zip",
+                  "input":"The Green Screen Battlemap/EUR/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/the_green_screen_battlemap.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "the_green_screen_battlemap.zip (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1259616",
+                    "output": "sdmc:/PM3DS/the_green_screen_battlemap.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/the_green_screen_battlemap.zip",
+                  "input":"The Green Screen Battlemap/EUR/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/the_green_screen_battlemap.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "the_green_screen_battlemap.zip (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1259616",
+                    "output": "sdmc:/PM3DS/the_green_screen_battlemap.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/the_green_screen_battlemap.zip",
+                  "input":"The Green Screen Battlemap/EUR/romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/the_green_screen_battlemap.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "AI Sticker Star",
+                "author": "Mayro",
+                "category": ["Messages"],
+                "console": ["3DS"],
+                "description": "This is like the Book of Mario hacks but\ninstead of putting all the text through Google Translate,\nall the text has been generated by AI using\nthe first couple of words from each string as a prompt!\nOnly msbt text has been replaced so no images (eg. the talk prompt).",
+                "icon_index": 9,
+                "sheet_index": 0,
+                "last_updated": "Jul 22nd 2022",
+                "license": "CC0 1.0 Universal",
+                "version": "v1"
+            },
+            "ai_sticker_star.zip (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/840320",
+                    "output": "sdmc:/PM3DS/ai_sticker_star.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ai_sticker_star.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ai_sticker_star.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+                {
+            "info": {
+                "title": "Royal Sticker Boss Defense Removal Mod",
+                "author": "HunterXuman",
+                "category": ["Data"],
+                "console": ["3DS"],
+                "description": "This mod has 2 versions.\n1 removes boss defenses completely,\nand the other gives them the same defense as Shiny Enemies.",
+                "icon_index": 10,
+                "sheet_index": 0,
+                "last_updated": "Jul 30 2023",
+                "license": "CC0 1.0 Universal",
+                "version": "v1"
+            },
+            "No Defense (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1028549",
+                    "output": "sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "No Defense (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1028549",
+                    "output": "sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "No Defense (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1028549",
+                    "output": "sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_no_defense_.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Shiny Defense (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1028548",
+                    "output": "sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Shiny Defense (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1028548",
+                    "output": "sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Shiny Defense (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1028548",
+                    "output": "sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/royal_sticker_boss_defense_mod_shiny_defense_.zip"
                },
                {
                   "type":"promptMessage",
