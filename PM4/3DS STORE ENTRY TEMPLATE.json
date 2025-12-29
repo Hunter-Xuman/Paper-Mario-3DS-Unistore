@@ -1,0 +1,80 @@
+        {
+            "info": {
+                "title": "NAME OF YOUR MOD HERE",
+                "author": "YOUR NAME HERE",
+                "category": ["TYPE OF MOD HERE. IF MODPACK, PUT MODPACK"],
+                "console": ["3DS"],
+                "description": "DESCRIPTION OF YOUR MOD HERE. USE \n FOR PAGE BREAKS",
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "LASTEST DATE HERE",
+                "license": "CC0 1.0 Universal",
+                "version": "MOD VERSION"
+            },
+            "NAME OF YOUR MOD HERE (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "LINK TO YOUR MOD DOWNLOAD HERE",
+                    "output": "sdmc:/PM3DS/NAME OF YOUR ZIP OR 7Z FILE"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/NAME OF YOUR ZIP OR 7Z FILE",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/PM4-Challenge-Mode.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "NAME OF YOUR MOD HERE (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "LINK TO YOUR MOD DOWNLOAD HERE",
+                    "output": "sdmc:/PM3DS/NAME OF YOUR ZIP OR 7Z FILE"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/NAME OF YOUR ZIP OR 7Z FILE",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/PM4-Challenge-Mode.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "NAME OF YOUR MOD HERE (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "LINK TO YOUR MOD DOWNLOAD HERE",
+                    "output": "sdmc:/PM3DS/NAME OF YOUR ZIP OR 7Z FILE"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/NAME OF YOUR ZIP OR 7Z FILE",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/NAME OF YOUR ZIP OR 7Z FILE"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
