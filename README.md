@@ -4,13 +4,13 @@ An online repository of community made mods for Paper Mario Sticker Star, Color 
 # Installation
 
 #3DS
-You will need to install Universal-Updater. https://github.com/Universal-Team/Universal-Updater
+- You will need to install Universal-Updater. https://github.com/Universal-Team/Universal-Updater
 - Download Paper-Mario-3DS.unistore and Paper-Mario-3DS.t3x from the PM4 source folder and place them in sdmc:/3ds/Universal-Updater/stores on your SD card.
 - In Universal Updater, open the settings tab, then go to Select Unistore and select Paper-Mario-3DS-Unistore.
 - From here, you can select the mod(s) you would like to install, and follow the on screen prompts.
 
 #Wii U
-You Will Need SDCafiine https://github.com/wiiu-env/sdcafiine_plugin
+- You Will Need SDCafiine https://github.com/wiiu-env/sdcafiine_plugin and the Homebrew App Store https://github.com/fortheusers/hb-appstore
 - Download repos.json from the PM5 source folder and place it into sdmc:/wiiu/apps/appstore/.get
 - Currently, the json also contains the repo for the HB App Store, so mods will show alongside homebrew apps. To help make it easier to find mods, they will be located in the Games section.
 - Open the HB App Store, and browse the games section. Follow the instructions for each mod as some may be standalone modpacks, or merge into a general folder
