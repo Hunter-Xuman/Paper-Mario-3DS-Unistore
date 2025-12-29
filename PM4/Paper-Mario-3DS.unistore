@@ -1339,7 +1339,7 @@
                 "category": ["Modpack"],
                 "console": ["3DS"],
                 "description": "This is a minor mod that changes Mario's and enemies hurt animation when they take damage.\nBasically, it makes it so that characters don't crumble like older games in the series.",
-                "icon_index": 10,
+                "icon_index": 11,
                 "sheet_index": 0,
                 "last_updated": "Aug 22nd 2025",
                 "license": "CC0 1.0 Universal",
@@ -1413,4 +1413,5 @@
             ]
         }
     ]
+
 }
