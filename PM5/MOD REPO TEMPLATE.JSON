@@ -1,0 +1,69 @@
+{
+    "packages": [
+        {
+            "updated": "UPDATE DATE",
+            "appCreated": "CREATION DATE",
+            "app_dls": 1986,
+            "screens": 3,
+            "md5": "MD5 HASH (not required)",
+            "category": "game",
+            "name": "FILENAME OF YOUR ZIPPED MOD(USA)",
+            "license": "MIT",
+            "title": "TITLE OF YOUR MOD(USA)",
+            "url": "",
+            "description": "IF YOUR MOD IS STANDALONE, PLACE [Standalone] IN THE BEGINNING OF THE DESCRIPTION. IF ITS MEANT TO MERGE WITH OTHER MODS, PLACE [Merge] IN THE BEGINNING OF THE DESCRIPTION",
+            "author": "CREATOR NAME",
+            "changelog": "CHANGELOG",
+            "extracted": 7547712, //(EXTRACTED FILESIZE)
+            "version": "VERSION NUMBER MUST MATCH WITH VERSION NUMBER YOU PLACED IN MOD INFO TEMPLATE.JSON",
+            "filesize": 6551459, //(ZIPPED FILESIZE)
+            "details": "FULL DETAILS FOR THE MOD"
+        },
+        {
+            "updated": "UPDATE DATE",
+            "appCreated": "CREATION DATE",
+            "app_dls": 1986,
+            "screens": 3,
+            "md5": "MD5 HASH (not required)",
+            "category": "game",
+            "name": "FILENAME OF YOUR ZIPPED MOD(EUR)",
+            "license": "MIT",
+            "title": "TITLE OF YOUR MOD(EUR)",
+            "url": "",
+            "description": "IF YOUR MOD IS STANDALONE, PLACE [Standalone] IN THE BEGINNING OF THE DESCRIPTION. IF ITS MEANT TO MERGE WITH OTHER MODS, PLACE [Merge] IN THE BEGINNING OF THE DESCRIPTION",
+            "author": "CREATOR NAME",
+            "changelog": "CHANGELOG",
+            "extracted": 7547712, //(EXTRACTED FILESIZE)
+            "version": "VERSION NUMBER MUST MATCH WITH VERSION NUMBER YOU PLACED IN MOD INFO TEMPLATE.JSON",
+            "filesize": 6551459, //(ZIPPED FILESIZE)
+            "details": "FULL DETAILS FOR THE MOD"
+        },
+        {
+            "updated": "UPDATE DATE",
+            "appCreated": "CREATION DATE",
+            "app_dls": 1986,
+            "screens": 3,
+            "md5": "MD5 HASH (not required)",
+            "category": "game",
+            "name": "FILENAME OF YOUR ZIPPED MOD(JPN)",
+            "license": "MIT",
+            "title": "TITLE OF YOUR MOD(JPN)",
+            "url": "",
+            "description": "IF YOUR MOD IS STANDALONE, PLACE [Standalone] IN THE BEGINNING OF THE DESCRIPTION. IF ITS MEANT TO MERGE WITH OTHER MODS, PLACE [Merge] IN THE BEGINNING OF THE DESCRIPTION",
+            "author": "CREATOR NAME",
+            "changelog": "CHANGELOG",
+            "extracted": 7547712, //(EXTRACTED FILESIZE)
+            "version": "VERSION NUMBER MUST MATCH WITH VERSION NUMBER YOU PLACED IN MOD INFO TEMPLATE.JSON",
+            "filesize": 6551459, //(ZIPPED FILESIZE)
+            "details": "FULL DETAILS FOR THE MOD"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
