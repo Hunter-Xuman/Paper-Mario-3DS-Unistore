@@ -17,6 +17,24 @@
             "version": "1.0",
             "filesize": 6551459,
             "details": "This mod makes it so partners never miss attacks by editing their accuracy rate.\nFiles edited:\n- data_btl.elf.zst"
+        },
+        {
+            "updated": "11/04/2024",
+            "appCreated": "11/04/2024",
+            "app_dls": 0,
+            "screens": 3,
+            "category": "game",
+            "name": "HalloweenVivian",
+            "license": "GPLv2",
+            "title": "Halloween Vivian",
+            "url": "",
+            "description": "This changes all of vivians known used textures and icons.",
+            "author": "HunterXuman",
+            "changelog": "n/a",
+            "extracted": 7547712,
+            "version": "1.0",
+            "filesize": 6551459,
+            "details": "This changes all of vivians known used textures and icons.\nSome UI, like the tattle log, isnt changed as I couldnt figure out the proper format to save it in\nFiles edited:\n- Shadowhide.bfres.zst\n- VVA.bfres.zst\n- VVA_Back.bfres.zst\n- VVA_Dot.bfres.zst\n- VVA_E.bfres.zst\n- Info_PartyChange_Icon.bfres.zst\n- Unit_Status.bfres.zst"
         }
     ]
 }
