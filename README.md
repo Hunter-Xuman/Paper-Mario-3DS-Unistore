@@ -22,8 +22,9 @@ An online repository of community made mods for Paper Mario Sticker Star, Color 
 - Atmosphere's layered FS does not use a standard modloader, meaning all mods will use the same folder. BE ADVISED THAT SOME MODS MAY CLASH WITH OTHERS SO PLEASE READ THEIR DESCRIPTIONS
 
 # Mod List
+<details>
+    <summary>#PM4</summary>
 
-#PM4
 - [PM4 Challenge Mode](https://github.com/Hunter-Xuman/PM4-Challenge-Mode) by HunterXuman and Shigu
 - [Skippable Dialogue](https://gamebanana.com/mods/606337) by Inbst
 - [The Cut Content Unhidden Mod](https://gamebanana.com/mods/570191) by TheIronicGaymerQween2
@@ -35,16 +36,37 @@ An online repository of community made mods for Paper Mario Sticker Star, Color 
 - [AI Sticker Star](https://gamebanana.com/mods/392990) by Mayro
 - [Royal Sticker Boss Defense Removal Mod](https://gamebanana.com/mods/459482) by HunterXuman
 - [Old damage animation](https://gamebanana.com/mods/533877) by Br123TT
+- [Red and Blue 5 and 10 Coins](https://gamebanana.com/mods/525406) by HunterXuman
+- [Ooooo (Kersti Mod)](https://gamebanana.com/mods/611770) by Piggreen346
+- [Kurt Angle Stare Goomba Boss](https://gamebanana.com/mods/502084) by Piggreen346
+- [Cursed BattleMap Snow](https://gamebanana.com/mods/482091) by Piggreen346
+- [Retro Goomba](https://gamebanana.com/mods/479127) by Piggreen346
+- [The Green Screen Battle map](https://gamebanana.com/mods/535720) by Piggreen346
+</details>
 
-#PM5
+<details>
+    <summary>#PM5</summary>
+
+
 - Enemy Shop by HunterXuman
+- [Ooooo Over Huey](https://gamebanana.com/mods/611969) by Piggreen346
+</details>
 
-#PM6
+<details>
+    <summary>#PM6</summary>
+
+
 - [Partners Never Miss](https://gamebanana.com/mods/422697) by HunterXuman
+</details>
 
-#PM2R
+<details>
+    <summary>#PM2R</summary>
+
+
 
 - [Halloween Vivian](https://gamebanana.com/mods/552669) by HunterXuman
+- [Loading Zone Randomizer](https://gamebanana.com/mods/587002) by CaXaP
+</details>
 
 # Helpful Resources
 

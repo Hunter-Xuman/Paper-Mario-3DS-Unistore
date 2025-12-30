@@ -1,0 +1,11 @@
+{
+  "title": "[TTYD]MOD TITLE",
+  "author": "CREATOR NAME",
+  "category": "game",
+  "version": "VERSION NUMBER MUST MATCH WITH VERSION NUMBER YOU PLACED IN MOD REPO TEMPLATE.JSON",
+  "url": "LINK TO MAIN MOD PAGE IF YOU HAVE ONE FOR YOUR MOD",
+  "license": "GPLv2",
+  "description": "SHORT DESCRIPTION",
+  "details": "LONG DESCRIPTION",
+  "changelog": "CHANGELOG"
+}
