@@ -17,7 +17,7 @@ An online repository of community made mods for Paper Mario Sticker Star, Color 
 
 #Switch
 - You Will Need Atmosphere https://github.com/atmosphere-nx/atmosphere/releases and the Homebrew App Store https://github.com/fortheusers/hb-appstore
-- Download switch.zip from the PM6 source folder and extract it to your SD card
+- Download switch.zip from the PM62R source folder and extract it to your SD card
 - Currently, the json also contains the repo for the HB App Store, so mods will show alongside homebrew apps. To help make it easier to find mods, they will be located in the Games section.
 - Atmosphere's layered FS does not use a standard modloader, meaning all mods will use the same folder. BE ADVISED THAT SOME MODS MAY CLASH WITH OTHERS SO PLEASE READ THEIR DESCRIPTIONS
 
