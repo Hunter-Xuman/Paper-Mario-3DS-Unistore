@@ -1,6 +1,12 @@
 # Modern PM Modstores
 An online repository of community made mods for Paper Mario Sticker Star, Color Splash, The Origami King, and The Thousand Year Door Switch. Utilizes services created and maintained by [Universal Updater](https://github.com/Universal-Team/Universal-Updater) and [Homebrew App Store](https://github.com/fortheusers/hb-appstore)
 
+![PM4 Store](images/PM4.png)
+![PM5 Store](images/PM5.png)
+![PM6 Store](images/PM6.png)
+![PM2R Store](images/PM2R.png)
+
+
 # Installation
 
 #3DS
