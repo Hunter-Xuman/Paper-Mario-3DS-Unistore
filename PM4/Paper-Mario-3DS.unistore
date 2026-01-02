@@ -1898,7 +1898,7 @@
                 "author": "HunterXuman",
                 "category": ["BGM"],
                 "console": ["3DS"],
-                "description": "PM4 Challenge Mode is a mod of Paper Mario Sticker Star that adds some slight changes to the game to create a more challenging experience.",
+                "description": "Simply replaces the Decalburg town theme with Rougeport from PM:TTYD.",
                 "icon_index": 18,
                 "sheet_index": 0,
                 "last_updated": "Dec 28th 2022",
@@ -1906,12 +1906,12 @@
                 "version": "v1.0"
             },
             "Rogueport Theme (USA)": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://gamebanana.com/dl/912567",
-                    "output": "sdmc:/PM3DS/rougeport_over_decalburg.zip"
-                },
-                {
+               {
+                  "type": "downloadFile",
+                  "file": "https://gamebanana.com/dl/912567",
+                  "output": "sdmc:/PM3DS/rougeport_over_decalburg.zip"
+               },
+               {
                   "type":"extractFile",
                   "file":"sdmc:/PM3DS/rougeport_over_decalburg.zip",
                   "input":"",
@@ -1971,6 +1971,482 @@
                   "count":1
                }
             ]
-        }  
+        },
+                 {
+            "info": {
+                "title": "Every Paper Mario Title Theme",
+                "author": "Sonic Gamer",
+                "category": ["BGM"],
+                "console": ["3DS"],
+                "description": "Ports over every Paper Mario title theme over the Sticker Star title theme (but you can rename it to any other song).\nAlso adds in the (Greetings from the Mushroom Kingdom (post game variant) song from\nPaper Mario The Thousand Year Door 2024 OST, for those who prefer it over the N64 title theme.",
+                "icon_index": 19,
+                "sheet_index": 0,
+                "last_updated": "Nov 20th 2024",
+                "license": "CC0 1.0 Universal",
+                "version": "v1.0"
+            },
+            "Paper Mario (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325884",
+                    "output": "sdmc:/PM3DS/n64_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/n64_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/n64_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Paper Mario (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325884",
+                    "output": "sdmc:/PM3DS/n64_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/n64_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/n64_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Paper Mario (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325884",
+                    "output": "sdmc:/PM3DS/n64_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/n64_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/n64_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mushroom Kingdom 2024 (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325882",
+                    "output": "sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mushroom Kingdom 2024 (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325882",
+                    "output": "sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Mushroom Kingdom 2024 (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325882",
+                    "output": "sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_greetings_from_the_mushroom_kingdom.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Thousand Year Door (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325886",
+                    "output": "sdmc:/PM3DS/ttyd_og_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_og_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_og_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Thousand Year Door (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325886",
+                    "output": "sdmc:/PM3DS/ttyd_og_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_og_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_og_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Thousand Year Door (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325886",
+                    "output": "sdmc:/PM3DS/ttyd_og_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_og_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_og_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Thousand Year Door 2024 (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325888",
+                    "output": "sdmc:/PM3DS/ttyd_2024_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_2024_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_2024_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Thousand Year Door 2024 (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325888",
+                    "output": "sdmc:/PM3DS/ttyd_2024_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_2024_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_2024_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Thousand Year Door 2024 (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325888",
+                    "output": "sdmc:/PM3DS/ttyd_2024_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_2024_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_2024_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Super Paper Mario (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325885",
+                    "output": "sdmc:/PM3DS/spm_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/spm_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/spm_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Super Paper Mario (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325885",
+                    "output": "sdmc:/PM3DS/spm_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/spm_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/spm_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Super Paper Mario (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325885",
+                    "output": "sdmc:/PM3DS/spm_title_screen.7z.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/spm_title_screen.7z.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/spm_title_screen.7z.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Color Splash (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325883",
+                    "output": "sdmc:/PM3DS/colour_splash_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/colour_splash_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/colour_splash_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Colour Splash (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325883",
+                    "output": "sdmc:/PM3DS/colour_splash_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/colour_splash_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/colour_splash_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Color Splash (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325883",
+                    "output": "sdmc:/PM3DS/colour_splash_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/colour_splash_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/colour_splash_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Origami King (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325887",
+                    "output": "sdmc:/PM3DS/tok_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/tok_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/tok_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Origami King (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325887",
+                    "output": "sdmc:/PM3DS/tok_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/tok_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/tok_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "The Origami King (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1325887",
+                    "output": "sdmc:/PM3DS/tok_title_screen.7z"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/tok_title_screen.7z",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/tok_title_screen.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        }
     ]
 }
