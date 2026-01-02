@@ -98,9 +98,7 @@ An online repository of community made mods for Paper Mario Sticker Star, Color 
 - After editing all of that. You should be left with a folder full of things that look similar (but not exactly depending on region) to this
     packages
     repo.json
-    MyMod(USA).zip
-    MyMod(EUR).zip
-    MyMod(JPN).zip
+    [TOK]MyMod.zip OR [TTYD]MyMod.zip
 - Zip all of these up and upload them to a public drive, and then [submit your request as an issue using the form, with the title being "Submission MODNAME GAMENAME" and the body having a link to your mod.](https://github.com/Hunter-Xuman/Modern-PM-Modstores/issues/new) If your mod also has a public release page (like github, gamebanana etc.) Please link that as well so it can be linked properly in the Mod List below.
 </details>
 
