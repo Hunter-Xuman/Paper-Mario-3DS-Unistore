@@ -126,6 +126,8 @@ An online repository of community made mods for Paper Mario Sticker Star, Color 
 - [Skip The Intro](https://gamebanana.com/mods/643395) by Shigu
 - [Rogueport Town Theme over Decalburg](https://gamebanana.com/sounds/65374) by HunterXuman
 - [Every Paper Mario Title Theme](https://gamebanana.com/sounds/77207) by Sonic Gamer
+- [March Ahead (Paper Mario 64) over Grassland Theme](https://gamebanana.com/sounds/65399) by Reecee_yt
+- [TTYD Battle Theme over Normal Battle Theme](https://gamebanana.com/sounds/65400) by Reecee_yt
 </details>
 
 <details>

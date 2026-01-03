@@ -2447,6 +2447,166 @@
                   "count":1
                }
             ]
+         },
+         {
+            "info": {
+                "title": "March Ahead (Paper Mario 64) over Grassland Theme",
+                "author": "Reecee_yt",
+                "category": ["BGM"],
+                "console": ["3DS"],
+                "description": "This sound file replaces the Grassland Theme (Blue Skies, White Clouds) with March Ahead from Paper Mario 64.",
+                "icon_index": 20,
+                "sheet_index": 0,
+                "last_updated": "Dec 30 2022",
+                "license": "CC0 1.0 Universal",
+                "version": "1.0"
+            },
+            "March Ahead (Paper Mario 64) over Grassland Theme (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/913177",
+                    "output": "sdmc:/PM3DS/march_ahead_over_grassland.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/march_ahead_over_grassland.zip",
+                  "input":"March Ahead over Grassland/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/sound/stream/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/march_ahead_over_grassland.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "March Ahead (Paper Mario 64) over Grassland Theme (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/913177",
+                    "output": "sdmc:/PM3DS/march_ahead_over_grassland.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/march_ahead_over_grassland.zip",
+                  "input":"March Ahead over Grassland/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/sound/stream/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/march_ahead_over_grassland.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "March Ahead (Paper Mario 64) over Grassland Theme (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/913177",
+                    "output": "sdmc:/PM3DS/march_ahead_over_grassland.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/march_ahead_over_grassland.zip",
+                  "input":"March Ahead over Grassland/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/sound/stream/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/march_ahead_over_grassland.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info": {
+                "title": "TTYD Battle Theme over Normal Battle Theme",
+                "author": "Reecee_yt",
+                "category": ["BGM"],
+                "console": ["3DS"],
+                "description": "Replaces the normal battle theme with the Battle Theme from Paper Mario TTYD as well as the normal and perfect bonus victory Themes.",
+                "icon_index": 21,
+                "sheet_index": 0,
+                "last_updated": "Dec 30 2022",
+                "license": "CC0 1.0 Universal",
+                "version": "1.0"
+            },
+            "TTYD Battle Theme over Normal Battle Theme (USA)": [
+               {
+                 "type": "downloadFile",
+                 "file": "https://gamebanana.com/dl/913179",
+                 "output": "sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip",
+                  "input":"TTYD Battle Theme over Normal Battle Theme/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/sound/stream/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "TTYD Battle Theme over Normal Battle Theme (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/913179",
+                    "output": "sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip",
+                  "input":"TTYD Battle Theme over Normal Battle Theme/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/sound/stream/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "TTYD Battle Theme over Normal Battle Theme (JPN)": [
+               {
+                 "type": "downloadFile",
+                 "file": "https://gamebanana.com/dl/913179",
+                 "output": "sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip"
+               },
+               {
+                 "type":"extractFile",
+                 "file":"sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip",
+                 "input":"TTYD Battle Theme over Normal Battle Theme/",
+                 "output":"sdmc:/luma/titles/00040000000A5D00/romfs/sound/stream/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/ttyd_battle_Theme_over_normal_battle_Theme.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
         }
     ]
 }
