@@ -53,6 +53,24 @@
             "version": "0.2",
             "filesize": 96173,
             "details": "Good-old Loading Zone Randomizer similar to the one for the original TTYD. It randomizes the room when you switch rooms. And does nothing else. Special rooms like Mario and Luigi's house, title screen, ending and others don't get randomized to prevent softlocks.\nFiles Edited:\n- main.npdm\n- subsdk9"
+        },
+        {
+            "updated": "5/04/2025",
+            "appCreated": "4/07/2025",
+            "app_dls": 0,
+            "screens": 3,
+            "category": "game",
+            "name": "[TOK]PMTOKRefolded",
+            "license": "GPLv2",
+            "title": "[TOK]PMTOK REfolded",
+            "url": "",
+            "description": "This is a modpack that adds new characters, enemies, items and more.",
+            "author": "PMTOK Refolded Team",
+            "changelog": "n/a",
+            "extracted": 743617739,
+            "version": "1.00",
+            "filesize": 734425115,
+            "details": "This is a modpack that builds upon the existing world of Paper Mario The Origami King by adding new characters, enemies, items and more while keeping the existing charm of the original game.\nThis mod DOES NOT WORK with ANY EXEFS patches!"
         }
     ]
 }
