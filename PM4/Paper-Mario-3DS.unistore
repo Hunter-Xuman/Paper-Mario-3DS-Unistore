@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Hunter-Xuman/Paper-Mario-3DS-Unistore/raw/main/PM4/Paper-Mario-3DS.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 10,
+        "revision": 11,
         "version": 3
     },
     "storeContent": [
@@ -2605,6 +2605,203 @@
                   "type":"promptMessage",
                   "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
+               }
+            ]
+         },
+         {
+            "info": {
+                "title": "Enemy Stickers",
+                "author": "SmacAttac",
+                "category": ["Modpack"],
+                "console": ["3DS"],
+                "description": "the idea was simple, make the Item Stickers function basically like the Enemy Cards from Color Splash, which was surprisingly easier than I could've expected, although not perfect as of now",
+                "icon_index": 22,
+                "sheet_index": 0,
+                "last_updated": "Jan 9 2026",
+                "license": "CC0 1.0 Universal",
+                "version": "1.0"
+            },
+            "Enemy Stickers (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1598904",
+                    "output": "sdmc:/PM3DS/enemy_stickers_c9438.rar"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/enemy_stickers_c9438.rar",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/enemy_stickers_c9438.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Enemy Stickers (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1598904",
+                    "output": "sdmc:/PM3DS/enemy_stickers_c9438.rar"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/enemy_stickers_c9438.rar",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/enemy_stickers_c9438.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Enemy Stickers (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1598904",
+                    "output": "sdmc:/PM3DS/enemy_stickers_c9438.rar"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/enemy_stickers_c9438.rar",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/enemy_stickers_c9438.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "Shiny Dry Bones for Petey's bossfight",
+                "author": "SmacAttac",
+                "category": ["Modpack"],
+                "console": ["3DS"],
+                "description": "this was made due to me be slowly becoming irritated about there being an unused shiny variant of the Dry Bones when it absolutely could've been used as the spawned enemy for Petey's bossfight",
+                "icon_index": 23,
+                "sheet_index": 0,
+                "last_updated": "Jan 9 2026",
+                "license": "CC0 1.0 Universal",
+                "version": "1.0"
+            },
+            "Shiny Dry Bones for Petey's bossfight (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1598997",
+                    "output": "sdmc:/PM3DS/petey_spittin_shiny_bones.rar"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/petey_spittin_shiny_bones.rar",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/petey_spittin_shiny_bones.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Shiny Dry Bones for Petey's bossfight (EUR)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1598997",
+                    "output": "sdmc:/PM3DS/petey_spittin_shiny_bones.rar"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/petey_spittin_shiny_bones.rar",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5F00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/petey_spittin_shiny_bones.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Shiny Dry Bones for Petey's bossfight (JPN)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1598997",
+                    "output": "sdmc:/PM3DS/petey_spittin_shiny_bones.rar"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/petey_spittin_shiny_bones.rar",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5D00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/petey_spittin_shiny_bones.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+        },
+        {
+            "info": {
+                "title": "Classic Jump and Hammer designs",
+                "author": "Bamboi",
+                "category": ["Modpack"],
+                "console": ["3DS"],
+                "description": "this mod brings back the e3 2010 design of the hammer sticker and also the ttyd design of the boot.",
+                "icon_index": 24,
+                "sheet_index": 0,
+                "last_updated": "Jan 9 2026",
+                "license": "CC0 1.0 Universal",
+                "version": "1.0"
+            },
+            "Classic Jump and Hammer designs (USA)": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://gamebanana.com/dl/1598905",
+                    "output": "sdmc:/PM3DS/classic_jump_and_hammer.zip"
+                },
+                {
+                  "type":"extractFile",
+                  "file":"sdmc:/PM3DS/classic_jump_and_hammer.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000000A5E00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/PM3DS/classic_jump_and_hammer.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               
                }
             ]
         }

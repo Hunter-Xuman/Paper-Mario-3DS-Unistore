@@ -50,7 +50,7 @@
             "author": "CaXaP",
             "changelog": "UPDATE v0.2:\n• Now you can hold R when switching rooms to not randomize them.\n• More glitchy rooms excluded",
             "extracted": 1396,
-            "version": "1.0",
+            "version": "0.2",
             "filesize": 1066,
             "details": "Good-old Loading Zone Randomizer similar to the one for the original TTYD. It randomizes the room when you switch rooms. And does nothing else. Special rooms like Mario and Luigi's house, title screen, ending and others don't get randomized to prevent softlocks.\nFiles Edited:\n- main.npdm\n- subsdk9"
         },
