@@ -143,6 +143,24 @@
             "version": "1.0",
             "filesize": 1066,
             "details": "Increases Yoshi's Default Speed to 5.0. 0.25 is the Normal Speed.\nFiles Edited:\ndata_param_player.elf.zst"
+        },
+        {
+            "updated": "08/03/2020",
+            "appCreated": "08/03/2020",
+            "app_dls": 0,
+            "screens": 3,
+            "category": "game",
+            "name": "[TOK]SMG4PlayerSkin",
+            "license": "GPLv2",
+            "title": "[TOK]SMG4 Player Skin",
+            "url": "",
+            "description": "Changes Mario's clothes to SMG4",
+            "author": "meme_man_not_ava",
+            "changelog": "n/a",
+            "extracted": 21018672,
+            "version": "1.0",
+            "filesize": 21018345,
+            "details": "I wanted to experiment with PMTOK Modding, so I decided to try and make a SMG4 Player Skin since it's fairly easy to make.\nThis skin was made using a batch action in Photoshop, this means all of Mario's sprites have been edited to look like SMG4.\nThe downside of this is that Marios tongue is now blue as well. but that's a minor detail.\nHope you enjoy this mod."
         }
     ]
 }
